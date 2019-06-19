@@ -1,0 +1,10 @@
+.box {
+    height: 30px;
+    width: 30px;
+    border: 1px solid red;
+    font-size: smaller;
+    position: absolute;
+    cursor: move;
+    display: flex;
+    z-index: 1;
+}

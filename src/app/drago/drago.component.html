@@ -1,0 +1,6 @@
+<div>
+  <div *ngFor="let item of items; let i = index;" class="box" cdkDrag
+    [ngStyle]="{'transform': 'translate(' + items[i].x + 'px, ' + items[i].y + 'px)'}">
+    {{i}}
+  </div>
+</div>

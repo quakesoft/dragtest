@@ -1,0 +1,6 @@
+<div (mousemove)="move($event)">
+  <div *ngFor="let item of items; let i = index;" class="box" (mousedown)="down(i)"
+  [ngStyle]="{'transform': 'translate(' + items[i].x + 'px, ' + items[i].y + 'px)'}">
+    {{i}}
+  </div>
+</div>
